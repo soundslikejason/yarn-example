@@ -1,10 +1,14 @@
 {
   "name": "yarn-example",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": ""
+  }
 }
